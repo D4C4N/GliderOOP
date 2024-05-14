@@ -1,5 +1,7 @@
+package tail;
+
 public class VerticalStabilizer extends Stabilizer {
-    private Rudder rudder;
+    private final Rudder rudder;
 
     public VerticalStabilizer() {
         rudder = new Rudder();

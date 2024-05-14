@@ -1,8 +1,12 @@
+package main;
+
+import body.Body;
 import cockpit.ControlStick;
 import cockpit.Seat;
+import wing.Wing;
 
 public class Glider {
-    private Body body;
+    private final Body body;
 
     public Glider() {
         body = new Body();
@@ -23,5 +27,13 @@ public class Glider {
     public void addWings(Wing wing01, Wing wing02) {
         body.addLeftWing(wing01);
         body.addRightWing(wing02);
+    }
+
+    public void aileronUp() {
+        body.aileronUp();
+    }
+
+    public void aileronDown() {
+        body.aileronDown();
     }
 }

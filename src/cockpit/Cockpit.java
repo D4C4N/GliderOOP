@@ -1,6 +1,10 @@
+package cockpit;
+
+import shared.Configuration;
+
 public class Cockpit {
     private ControlStick controlStick;
-    private Seat[] seats;
+    private final Seat[] seats;
 
     public Cockpit() {
         seats = new Seat[Configuration.INSTANCE.countSeats];
@@ -10,11 +14,11 @@ public class Cockpit {
         return controlStick;
     }
 
-    public void setSeat(Seat seat, int i) {
-        seats[i] = seat;
-    }
-
     public void setControlStick(ControlStick controlStick) {
         this.controlStick = controlStick;
+    }
+
+    public void setSeat(Seat seat, int i) {
+        seats[i] = seat;
     }
 }

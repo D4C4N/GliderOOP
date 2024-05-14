@@ -1,30 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25c7745a-29db-4eb8-b071-43fc09b2c2f0" name="Changes" comment="" />
+    <list default="true" id="25c7745a-29db-4eb8-b071-43fc09b2c2f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/wing/Aileron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wing/AileronState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Implementation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/body/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cockpit/Cockpit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cockpit/Cockpit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cockpit/ControlStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cockpit/ControlStick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cockpit/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cockpit/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flightmanagement/FlightManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flightmanagement/FlightManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flightmanagement/IFlightManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flightmanagement/IFlightManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Glider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Glider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tail/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tail/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tail/HorizontalStabilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tail/HorizontalStabilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tail/Rudder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tail/Rudder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tail/Stabilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tail/Stabilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tail/VerticalStabilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tail/VerticalStabilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wing/Wing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wing/Wing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wing/WingPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wing/WingPosition.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "D4C4N"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/D4C4N/GliderOOP.git",
+    "accountId": "108664a6-8c77-4a4d-a292-3d82c740fc54"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2gRyzBJ1rkxLSYjRQd9DgBytlHq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -44,6 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715674944876</updated>
+      <workItem from="1715674945867" duration="10428000" />
     </task>
     <servers />
   </component>

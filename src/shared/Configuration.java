@@ -1,3 +1,5 @@
+package shared;
+
 public enum Configuration {
     INSTANCE;
 

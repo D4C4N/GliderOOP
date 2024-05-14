@@ -1,9 +1,13 @@
+package body;
+
 import cockpit.Cockpit;
 import cockpit.ControlStick;
 import cockpit.Seat;
+import wing.Wing;
+import wing.WingPosition;
 
 public class Body {
-    private Cockpit cockpit;
+    private final Cockpit cockpit;
     private Wing leftWing;
     private Wing rightWing;
 
@@ -31,5 +35,15 @@ public class Body {
     public void addRightWing(Wing wing) {
         rightWing = wing;
         rightWing.setPosition(WingPosition.RIGHT);
+    }
+
+    public void aileronUp() {
+        leftWing.aileronUp();
+        rightWing.aileronUp();
+    }
+
+    public void aileronDown() {
+        leftWing.aileronDown();
+        rightWing.aileronDown();
     }
 }
